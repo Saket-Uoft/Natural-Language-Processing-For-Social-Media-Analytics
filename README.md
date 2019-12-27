@@ -23,7 +23,7 @@ brevity.
 2-The second data set, Canadian_elections_2019.csv, contains a list of tweets regarding the 2019
 Canadian elections. 
 
-### The project has been implemented in the following steps to understand the datasets and and build the suitable models for getting the meaningful outcome-
+#### The project has been implemented in the following steps to understand the datasets and and build the suitable models for getting the meaningful outcome-
 
 ### 1-Data Cleaning-
 The tweets, as given, are not in a form amenable to analysis -- there is too much ‘noise’.
@@ -53,12 +53,12 @@ o Grraphical figures (e.g. chart, graph, histogram, boxplot, word cloud, etc) ar
 visualizes some aspect of the generic tweets and alsofor the 2019 Canadian
 elections tweets.
 
-### Model Preparation-
+### 3-Model Preparation-
 
 The generic tweets are split randomly into training data (70%) and test data (30%). Further the
 data is prepared using three different type of features (Bag of words, N-Grams and TF-IDF) to try multiple classification algorithms (logistic regression, k-NN, Naive Bayes,SVM, decision trees, ensembles (RF, XGBoost)), where each tweet is considered a single observation/example. In these models, the target variable is the sentiment value, which is either positive or negative.  
 
-### Model Implementation-
+### 4-Model Implementation-
 
 Different models trained on the generic tweets are tested to obtain an accuracy value. Further all the trained models  
 are used to predict the sentiments of Canadian elections tweets.
@@ -66,7 +66,7 @@ are used to predict the sentiments of Canadian elections tweets.
 The model with best performance is choosen and the sentiment prediction results are visualized. Further the modelling results 
 are compared with the original elections 2019 outcomes.Further the analysis of negative sentiment tweets is also carried out using the actual sentiment labels in the 2019 Canadian elections data.
 
-### Results
+### 5-Results
 
 Finally, the analysis and interpretation of the results is discussed based upon how each political party is 
 viewed in public based upon the predicted sentiment values. The approach of NLP analytics is discussed that 
