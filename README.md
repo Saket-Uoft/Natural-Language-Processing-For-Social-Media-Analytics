@@ -1,4 +1,4 @@
-## Project - Predicting the Outcome of Canadian Elections 2019 based upon Election Tweets
+## Project - Predicting the Outcome of Canadian Elections 2019 using NLP Analytics
 
 ### Background
 Sentiment analysis is a technology of increasing importance in the modern society as it allows
