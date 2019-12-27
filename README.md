@@ -29,6 +29,7 @@ Canadian elections.
 The tweets, as given, are not in a form amenable to analysis -- there is too much ‘noise’.
 Therefore, the first step is to “clean” the data.  A procedure is designed that prepares the
 Twitter data for analysis by satisfying the requirements below.
+
 o All html tags and attributes (i.e., /<[^>]+>/) are removed.
 o Html character codes (i.e., &...;) are replaced with an ASCII equivalent.
 o All URLs are removed.
