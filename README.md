@@ -31,10 +31,15 @@ Therefore, the first step is to “clean” the data.  A procedure is designed t
 Twitter data for analysis by satisfying the requirements below.
 
 o All html tags and attributes (i.e., /<[^>]+>/) are removed.
+
 o Html character codes (i.e., &...;) are replaced with an ASCII equivalent.
+
 o All URLs are removed.
+
 o All characters in the text are in lowercase.
+
 o All stop words are removed. Be clear in what you consider as a stop word.
+
 o If a tweet is empty after pre-processing, it should be preserved as such
 
 
