@@ -1,4 +1,3 @@
-# Natural-Language-Processing-of-Tweets
 ## Project - Predicting the Outcome of Canadian Elections 2019 based upon Election Tweets
 
 ### Background
@@ -15,22 +14,28 @@ opinion on Twitter tell us about the Canadian political landscape in 2019?” Th
 essentially use sentiment analysis on Twitter data to get insight into the 2019 Canadian elections.
 
 ### Datasets
+
 1- Two sets of data are used for this assignment. The generic_tweets.txt file contains tweets that
 have had their sentiments already analyzed and recorded as binary values 0 (negative) and 4
 (positive). Each line is a single tweet, which may contain multiple sentences despite their
-brevity. The comma-separated fields of each line are:
-
-0 class the polarity of each tweet (0 = negative emotion, 4 = positive emotion)
-1 id the id of the tweet (e.g. 2087)
-2 date the date of the tweet (e.g. Sat May 16 23:58:44 UTC 2009)
-3 query the query (e.g. lyx). If there is no query, then this value is NO_QUERY.
-4 user the user that tweeted (e.g. robotickilldozr)
-5 text the text of the tweet (e.g. Lyx is cool)
+brevity.
 
 2-The second data set, Canadian_elections_2019.csv, contains a list of tweets regarding the 2019
-Canadian elections. The fields of each line are:
-0 sentiment can be “positive” or “negative”
-1 negative_reason reason for negative tweets. Left blank for positive tweets.
-2 text the text of the tweet
+Canadian elections. 
+
+### The project has been implemented in the following steps to understand the datasets and and build the suitable models for getting the meaningful outcome-
+
+### Data Cleaning-
+The tweets, as given, are not in a form amenable to analysis -- there is too much ‘noise’.
+Therefore, the first step is to “clean” the data.  A procedure is designed that prepares the
+Twitter data for analysis by satisfying the requirements below.
+o All html tags and attributes (i.e., /<[^>]+>/) are removed.
+o Html character codes (i.e., &...;) are replaced with an ASCII equivalent.
+o All URLs are removed.
+o All characters in the text are in lowercase.
+o All stop words are removed. Be clear in what you consider as a stop word.
+o If a tweet is empty after pre-processing, it should be preserved as such
+
+
 
 
