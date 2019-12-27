@@ -25,7 +25,7 @@ Canadian elections.
 
 ### The project has been implemented in the following steps to understand the datasets and and build the suitable models for getting the meaningful outcome-
 
-### Data Cleaning-
+### 1-Data Cleaning-
 The tweets, as given, are not in a form amenable to analysis -- there is too much ‘noise’.
 Therefore, the first step is to “clean” the data.  A procedure is designed that prepares the
 Twitter data for analysis by satisfying the requirements below.
@@ -42,6 +42,16 @@ o All stop words are removed. Be clear in what you consider as a stop word.
 
 o If a tweet is empty after pre-processing, it should be preserved as such
 
+### 2-Exploratory analysis-
+
+A simple procedure is designed  that determines the political party (Liberal, Conservative,
+NDP, None) of a given tweet and applied this procedure to all the tweets in the 2019
+Canadian elections dataset. Relevant keywords and hashtags in the tweets are used to identify certain political parties. 
+Further the distribution of political affialiations of the tweets is visualized
+
+o Grraphical figures (e.g. chart, graph, histogram, boxplot, word cloud, etc) are plotted that
+visualizes some aspect of the generic tweets and alsofor the 2019 Canadian
+elections tweets.
 
 
 
